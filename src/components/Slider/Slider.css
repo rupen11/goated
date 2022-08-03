@@ -1,0 +1,31 @@
+.slider_heading{
+    color: var(--white);
+    font-weight: 600;
+}
+
+.slider_para{
+    color: #4A637B;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.slider_crowser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-block: 31px;
+}
+
+.slider_crow{
+    background-color: #1C2935;
+    width: 31px;
+    height: 7px;
+}
+
+.active{
+    background-color: var(--primary);
+}

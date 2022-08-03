@@ -1,20 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Terms.css'
 import zigzag from '../../assets/Zigzag Vertical.svg'
+import Slider from '../../components/Slider'
+import { Link } from "react-router-dom";
 
 const Terms = () => {
+
+    const [isChecked, setIsChecked] = useState(false);
+
     return (
         <div className='terms_container'>
             <div className="terms_inner_container">
 
-                <h3 className='terms_heading'>Welcome to Goated</h3>
-                <p className='terms_para'>We're glad to have you onboard with us</p>
-
-                <div className="terms_crowser">
-                    <span className='terms_crow'></span>
-                    <span className='terms_crow'></span>
-                    <span className='terms_crow'></span>
-                </div>
+                <Slider title={'Welcome to Goated'} description={"We're glad to have you onboard with us"} slide={'first'} />
 
                 <div className="terms_box">
                     <div className="terms_primary">
@@ -29,15 +27,17 @@ const Terms = () => {
                     </div>
 
                     <div className="terms_checkbox">
-                        <label class="terms_checkbox_container"> I agree to Vertex's <a>Terms of Service</a>
-                            <input type="checkbox" />
-                            <span class="mark"></span>
+                        <label className="terms_checkbox_container"> I agree to Vertex's <a href='/'>Terms of Service</a>
+                            <input type="checkbox" onChange={() => setIsChecked(!isChecked)} />
+                            <span className="mark"></span>
                         </label>
                     </div>
 
-                    <button className='terms_btn'>
-                        Continue to Goated
-                    </button>
+                    <Link to='/prefernces' className='terms_btn_text'>
+                        <button className='terms_btn' disabled={!isChecked}>
+                            Continue to Goated
+                        </button>
+                    </Link>
                 </div>
 
             </div>

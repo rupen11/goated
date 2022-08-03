@@ -10,38 +10,6 @@
     align-items: center;
 }
 
-.terms_heading{
-    color: var(--white);
-    font-weight: 600;
-}
-
-.terms_para{
-    color: #4A637B;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    margin-top: 8px;
-}
-
-.terms_crowser{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin-block: 31px;
-}
-
-.terms_crow{
-    background-color: #1C2935;
-    width: 31px;
-    height: 7px;
-}
-
-.terms_crow:first-child{
-    background-color: var(--primary);
-}
-
 .terms_box{
     width: 425px;
     height: 408px;
@@ -144,14 +112,27 @@
     height: 38px;
     background-color: var(--primary);
     border-radius: 4px;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 15px;
-    color: #365000;
     border: none;
     outline: none;
     margin: 31px auto 0 auto;
     display: block;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #365000;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.terms_btn:disabled{
+    opacity: 0.5;
+}
+
+.terms_btn_text{
+    text-decoration: none;
+}
+
+.terms_btn:hover{
+    opacity: 0.8;
 }
 
 .zigzag_img{

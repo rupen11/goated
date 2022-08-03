@@ -1,0 +1,22 @@
+.interest_card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid #39495A;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.interest_name{
+    color: #39495A;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.interest_select{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
