@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --primary: #88C800;
+    --secondary: #0C1218;
+    --dark: #141D25;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--dark);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-track{
+    background: none;
+}
