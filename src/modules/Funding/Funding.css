@@ -136,6 +136,11 @@
     margin-block: 16px;
 }
 
+.funding_status_container > img{
+    width: 26px;
+    height: 26px;
+}
+
 .funding_status{
     color: #628121;
     font-size: 14px;

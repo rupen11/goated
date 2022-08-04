@@ -5,7 +5,7 @@ import Slider from '../../components/Slider'
 import { Link } from "react-router-dom";
 import DepositIcon from '../../assets/icons/Group2.svg'
 import USDcoin from '../../assets/icons/usdcoin.svg'
-import Loading from '../../assets/icons/loading.svg'
+import Loading from '../../assets/loading/loader.gif'
 import CopyIcon from '../../assets/icons/copy.svg'
 import Unfold from '../../assets/icons/unfold.svg'
 
