@@ -18,42 +18,34 @@ const Prefernces = () => {
     const prefernces_arr = [
         {
             interest_name: 'Football',
-            status: 'none',
             svg: Vector1
         },
         {
             interest_name: 'Baseball',
-            status: 'none',
             svg: Vector2
         },
         {
             interest_name: 'Tennis',
-            status: 'none',
             svg: Vector3
         },
         {
             interest_name: 'Basketball',
-            status: 'none',
             svg: Vector4
         },
         {
             interest_name: 'Esports',
-            status: 'select',
             svg: Vector5
         },
         {
             interest_name: 'MMA',
-            status: 'none',
             svg: Vector6
         },
         {
             interest_name: 'Volleyball',
-            status: 'none',
             svg: Vector7
         },
         {
             interest_name: 'Rugby',
-            status: 'none',
             svg: Vector8
         },
     ];
@@ -106,12 +98,12 @@ const Prefernces = () => {
 
                         <div className="prefernces_interest">
                             {
-                                prefernces_arr && prefernces_arr.map(item => <Interest key={item.interest_name} name={item.interest_name} svg={item.svg} status={item.status} />)
+                                prefernces_arr && prefernces_arr.map(item => <Interest key={item.interest_name} name={item.interest_name} svg={item.svg} />)
                             }
                         </div>
                     </div>
 
-                    <Link to='/' className='prefernces_btn_text'>
+                    <Link to='/funding' className='prefernces_btn_text'>
                         <button className='prefernces_btn'>
                             Continue to Goated
                         </button>
