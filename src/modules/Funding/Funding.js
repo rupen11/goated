@@ -27,7 +27,7 @@ const Funding = () => {
 
                     <div className="funding_heading_container">
                         <img src={DepositIcon} alt="deposit icon" />
-                        <h5 className="funding_heading">Deposit from Wallet</h5>
+                        <h5 className="funding_heading">Deposit from FTX</h5>
                     </div>
 
                     <div className="funding_input_container">
@@ -43,7 +43,7 @@ const Funding = () => {
                         </div>
                     </div>
 
-                    <Link to='/prefernces' className='funding_btn_text'>
+                    <Link to='/fundingsuccess' className='funding_btn_text'>
                         <button className='funding_btn'>
                             Deposit Funds
                         </button>

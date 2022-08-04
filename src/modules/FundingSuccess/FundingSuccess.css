@@ -1,0 +1,115 @@
+.fundingsuccess_container{
+    background-color: var(--secondary);
+    width: 100%;
+    padding-top: 78px;
+}
+
+.fundingsuccess_inner_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fundingsuccess_box{
+    width: 425px;
+    background: var(--dark);
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.fundingsuccess_box > img{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.fundingsuccess_currency{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.fundingsuccess_status{
+    font-size: 17px;
+    font-weight: 400;
+    color: #7C95AE;
+}
+
+.fundingsuccess_btn{
+    width: 364px;
+    height: 38px;
+    background-color: var(--primary);
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    margin: 31px auto 0 auto;
+    display: block;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #365000;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.fundingsuccess_btn:disabled{
+    opacity: 0.5;
+}
+
+.fundingsuccess_btn_text{
+    text-decoration: none;
+}
+
+.fundingsuccess_btn:hover{
+    opacity: 0.8;
+}
+
+.zigzag_img{
+    margin: 70px 100px 0 0;
+    text-align: right;
+}
+
+.zigzag_img > img{
+    width: 276px;
+    height: 276px;
+}
+
+@media screen and (max-width: 500px) {
+    .fundingsuccess_box {
+        width: 350px;
+    }
+
+    .fundingsuccess_btn {
+        width: 290px;
+    }
+
+    .zigzag_img {
+        margin: 70px 70px 0 0;
+    }
+
+    .zigzag_img>img {
+        width: 176px;
+        height: 176px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .fundingsuccess_box {
+        width: 260px;
+    }
+
+    .fundingsuccess_btn {
+        width: 200px;
+    }
+
+    .zigzag_img {
+        margin: 70px 20px 0 0;
+    }
+
+    .zigzag_img>img {
+        width: 126px;
+        height: 126px;
+    }
+}
