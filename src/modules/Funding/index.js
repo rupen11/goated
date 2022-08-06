@@ -1,2 +1,1 @@
-import Funding from "./Funding";
-export default Funding;
+export { default } from './Funding'

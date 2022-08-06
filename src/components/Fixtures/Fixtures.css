@@ -1,0 +1,51 @@
+.sidebarright_box:not(:last-child){
+    border-bottom: 0.5px solid rgba(47, 61, 90, 0.75);
+}
+
+.sidebarright_inner_box{
+    margin-inline: 14px;
+}
+
+.sidebarright_box_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 20px;
+}
+
+.sidebarright_box_inner_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sidebarright_box_header_heading{
+    color: var(--white);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.sidebarright_box_list{
+    margin-left: 14px;
+}
+
+.sidebarright_box_list_item{
+    color: #39495A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: disc;
+    margin-bottom: 15px;
+}
+
+.sidebartight_box_list_name{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.sidebartight_box_list_number{
+    font-size: 11px;
+    font-weight: 400;
+
+}

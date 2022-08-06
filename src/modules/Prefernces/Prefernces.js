@@ -1,6 +1,6 @@
 import React, { } from 'react'
 import './Prefernces.css'
-import zigzag from '../../assets/Zigzag Vertical.svg'
+import zigzag from '../../assets/icons/Zigzag Vertical.svg'
 import Slider from '../../components/Slider'
 import Vector1 from '../../assets/interest/Vector1.svg'
 import Vector2 from '../../assets/interest/Vector2.svg'

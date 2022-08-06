@@ -10,6 +10,7 @@ const Interest = ({ name, svg }) => {
     const selectInterest = status => status === 'none' ? setStatus('select') : setStatus('none');
 
     return (
+        // <div className={classnames('base', 'status' : status)}
         <div className={`interest_card ${status === 'select' && 'interest_select'}`} onClick={() => selectInterest(status)}>
             <img src={svg} alt="" />
             <p className="interest_name">{name}</p>

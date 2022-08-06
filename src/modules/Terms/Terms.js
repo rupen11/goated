@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Terms.css'
-import zigzag from '../../assets/Zigzag Vertical.svg'
+import zigzag from '../../assets/icons/Zigzag Vertical.svg'
 import Slider from '../../components/Slider'
 import { Link } from "react-router-dom";
 
