@@ -2,6 +2,7 @@
     background-color: var(--secondary);
     width: 100%;
     padding-top: 78px;
+    min-height: calc(100vh - 44px);
 }
 
 .fundingsuccess_inner_container{
