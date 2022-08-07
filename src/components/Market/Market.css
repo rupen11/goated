@@ -1,0 +1,66 @@
+.market_conatiner{
+    width: 100%;
+}
+
+.market_header{
+    margin-block: 40px;
+    position: relative;
+}
+
+.market_heading_container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.market_heading{
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.market_underline{
+    position: absolute;
+    top: 50%;
+    width: 85%;
+    display: block;
+    right: 0;
+    border-bottom: 1px solid #242C34;
+}
+
+.marketcard_container{
+
+}
+
+.marketcard_box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1300px) {
+    .market_underline{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .market_underline{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .market_underline{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .market_underline{
+        width: 30%;
+    }
+}

@@ -5,7 +5,7 @@ import SidebarMenu from '../SidebarMenu'
 const SidebarLeft = ({ sidebar_contents }) => {
     return (
         <div className="sidebarleft_container">
-            {sidebar_contents.map(item => <SidebarMenu svg={item.svg} title={item.title} active={item.active} />)}
+            {sidebar_contents.map(item => <SidebarMenu key={item.title} svg={item.svg} title={item.title} active={item.active} />)}
         </div>
     )
 }

@@ -10,7 +10,6 @@ const Home = () => {
             <div className="home_container">
                 <Sidebar />
                 <HomeRight />
-                <Market />
             </div>
         </>
     )

@@ -1,0 +1,17 @@
+.marketcard_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.marketcard_group{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.marketcard_item_title{
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 500;
+}

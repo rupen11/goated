@@ -1,0 +1,9 @@
+.marketcard_item_score{
+    color: var(--white);
+    font-size: 12px;
+    font-weight: 600;
+    background-color: rgba(0, 200, 92, 0.15);
+    border-radius: 4px;
+    padding-inline: 29px;
+    padding-block: 9px;
+}

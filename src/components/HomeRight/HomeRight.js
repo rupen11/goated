@@ -4,6 +4,7 @@ import './HomeRight.css'
 import HomeRightIn from '../HomeRightIn/HomeRightIn'
 import Carousel from '../Carousel'
 import Model from '../Model'
+import Market from '../Market'
 
 const HomeRight = () => {
     return (
@@ -18,6 +19,7 @@ const HomeRight = () => {
                         <HomeRightOut />
                     </Model> */}
                 </div>
+                <Market />
             </div>
         </>
     )
