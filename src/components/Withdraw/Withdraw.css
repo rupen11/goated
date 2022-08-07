@@ -1,0 +1,53 @@
+.withdraw_heading{
+    color: var(--white);
+}
+
+.withdraw_group:not(:first-child){
+    margin-top: 20px;
+}
+
+.withdraw_input_container{
+    margin-block: 10px;
+    position: relative;
+}
+
+.withdraw_input{
+    width: 100%;
+    border: 1px solid #1D2731;
+    padding-block: 10px;
+    padding-inline: 20px;
+    background: none;
+    color: #39495A;
+    outline: none;
+    transition: 0.3s;
+    -moz-appearance: textfield;
+}
+
+.withdraw_input::-webkit-outer-spin-button,
+.withdraw_input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.withdraw_input_container > img{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.withdraw_input:focus{
+    border: 1px solid #39495A;
+}
+
+.withdraw_input::placeholder{
+    color: #39495A;
+}
+
+.withdraw_heading_container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+}

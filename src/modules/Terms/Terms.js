@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Terms.css'
 import zigzag from '../../assets/icons/Zigzag Vertical.svg'
 import Slider from '../../components/Slider'
-import { Link } from "react-router-dom";
+import GoatButton from '../../components/GoatButton';
 
 const Terms = () => {
 
@@ -33,11 +33,7 @@ const Terms = () => {
                         </label>
                     </div>
 
-                    <Link to='/prefernces' className='terms_btn_text'>
-                        <button className='terms_btn' disabled={!isChecked}>
-                            Continue to Goated
-                        </button>
-                    </Link>
+                    <GoatButton customeStyle={{}} linkroutepath={'/prefernces'} text={'Continue to Goated'} disabled={!isChecked} />
                 </div>
 
             </div>

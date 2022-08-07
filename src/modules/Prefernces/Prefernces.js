@@ -11,7 +11,7 @@ import Vector6 from '../../assets/interest/Vector6.svg'
 import Vector7 from '../../assets/interest/Vector7.svg'
 import Vector8 from '../../assets/interest/Vector8.svg'
 import Interest from '../../components/Interest/Interest'
-import { Link } from 'react-router-dom'
+import GoatButton from '../../components/GoatButton'
 
 const Prefernces = () => {
 
@@ -103,11 +103,7 @@ const Prefernces = () => {
                         </div>
                     </div>
 
-                    <Link to='/funding' className='prefernces_btn_text'>
-                        <button className='prefernces_btn'>
-                            Continue to Goated
-                        </button>
-                    </Link>
+                    <GoatButton customeStyle={{}} linkroutepath={'/funding'} text={'Continue to Goated'} disabled={false} />
                 </div>
 
             </div>

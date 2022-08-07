@@ -1,0 +1,12 @@
+.model_container{
+    min-height: 251px;
+    flex: 2;
+    background-color: var(--dark);
+    border-radius: 7px;
+}
+
+@media screen and (max-width: 1300px) {
+    .model_container{
+        flex: 1;
+    }
+}

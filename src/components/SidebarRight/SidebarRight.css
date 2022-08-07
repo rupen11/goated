@@ -3,6 +3,8 @@
     background-color: #0A0E12;
 }
 
-.sidebarright_inner_container{
-
+@media screen and (max-width: 1100px) {
+    .sidebarright_container{
+        display: none;
+    }
 }

@@ -1,0 +1,19 @@
+.home_right_container{
+    width: 100%;
+    margin: 20px;
+}
+
+.home_right_box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+    .home_right_box{
+        flex-direction: column;
+    }
+}

@@ -24,11 +24,9 @@ const SidebarRight = () => {
 
     return (
         <div className='sidebarright_container'>
-            <div className="sidebarright_inner_container">
-                {
-                    sidebarright_api.map(item => <Fixtures svg={item.svg} title={item.title} />)
-                }
-            </div>
+            {
+                sidebarright_api.map(item => <Fixtures svg={item.svg} title={item.title} />)
+            }
         </div>
     )
 }

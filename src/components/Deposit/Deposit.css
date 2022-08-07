@@ -1,0 +1,78 @@
+.deposit_heading{
+    color: var(--white);
+}
+
+.deposit_input_container{
+    margin-block: 20px;
+    position: relative;
+}
+
+.deposit_input{
+    width: 100%;
+    border: 1px solid #1D2731;
+    padding-block: 10px;
+    padding-inline: 20px;
+    background: none;
+    color: #39495A;
+    outline: none;
+    transition: 0.3s;
+    -moz-appearance: textfield;
+}
+
+.deposit_input::-webkit-outer-spin-button,
+.deposit_input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.deposit_input_container > img{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.deposit_input:focus{
+    border: 1px solid #39495A;
+}
+
+.deposit_input::placeholder{
+    color: #39495A;
+}
+
+.deposit_heading_container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.deposit_flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deposit_balane_heading{
+    color: #39495A;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.deposit_flex_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.deposit_balance{
+    color: var(--white);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.deposit_balance > span{
+    color: #425366;
+}
