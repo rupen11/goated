@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Fixtures from '../Fixtures/Fixtures'
 import './SidebarRight.css'
 import Rectangle427 from '../../assets/icons/Rectangle427.svg'
 import Rectangle428 from '../../assets/icons/Rectangle428.svg'
 import Rectangle429 from '../../assets/icons/Rectangle429.svg'
 
-const SidebarRight = () => {
+const SidebarRight = ({ show, setShow }) => {
 
     const sidebarright_api = [
         {
@@ -23,7 +23,7 @@ const SidebarRight = () => {
     ]
 
     return (
-        <div className='sidebarright_container'>
+        <div className={`sidebarright_container ${show && 'active_sidebarright'}`}>
             {
                 sidebarright_api.map(item => <Fixtures key={item.title} svg={item.svg} title={item.title} />)
             }

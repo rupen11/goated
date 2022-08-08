@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: center;
     padding-inline: 50px;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 20;
 }
@@ -97,9 +97,13 @@
 }
 
 .navbarmain_list_item {
-    color: #39495A;
     font-size: 12px;
     font-weight: 500;
+}
+
+.navbarmain_list_item a{
+    color: #39495A;
+    text-decoration: none;
 }
 
 .navbarmain_over {
@@ -153,7 +157,7 @@
     border-bottom: 1px solid var(--primary);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
     .navbarmain_container {
         padding-inline: 20px;
     }

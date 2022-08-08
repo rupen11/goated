@@ -4,6 +4,7 @@ import zigzag from '../../assets/icons/Zigzag Vertical.svg'
 import Slider from '../../components/Slider'
 import Loading from '../../assets/loading/loader.gif'
 import Deposit from '../../components/Deposit';
+import Bedge from '../../components/Bedge'
 
 const Funding = () => {
     return (
@@ -16,12 +17,7 @@ const Funding = () => {
                     <Deposit linkroutepath={'/fundingsuccess'} customeStyle={{padding: 20}} />
                 </div>
 
-                <div className="funding_status_container">
-                    <img src={Loading} alt="loading" />
-                    <p className="funding_status">
-                        It takes about 3-4 minutes for the transaction to be confirmed
-                    </p>
-                </div>
+                <Bedge svg={Loading} text='It takes about 3-4 minutes for the transaction to be confirmed' />
 
                 <div className="funding_skip_container">
                     <p className="funding_skip">

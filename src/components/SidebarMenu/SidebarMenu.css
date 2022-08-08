@@ -17,14 +17,6 @@
     margin-top: 5px;
 }
 
-.activesidebaricon{
-    background-color: rgba(136, 200, 0, 0.1);
-}
-
-.activesidebaricon .sidebarmenu_title{
-    color: var(--white);
-}
-
 @media screen and (max-width: 1100px) {
     .sidebarmenu_container{
         margin-bottom: 0;

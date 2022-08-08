@@ -1,10 +1,25 @@
 .sidebarright_container{
     width: 218px;
     background-color: #0A0E12;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    height: calc(100vh - 98px);
+    overflow-y: scroll;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+
+.active_sidebarright.sidebarright_container{
+    left: 53px;
+    opacity: 1;
 }
 
 @media screen and (max-width: 1100px) {
-    .sidebarright_container{
-        display: none;
+    .active_sidebarright.sidebarright_container{
+        left: 0;
+        opacity: 1;
     }
 }

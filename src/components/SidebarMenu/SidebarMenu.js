@@ -1,9 +1,9 @@
 import React from 'react'
 import './SidebarMenu.css'
 
-const SidebarMenu = ({ svg, title, active }) => {
+const SidebarMenu = ({ svg, title, active, setShow, show }) => {
     return (
-        <div className={`sidebarmenu_container ${active && 'activesidebaricon'}`}>
+        <div className='sidebarmenu_container' onClick={() => setShow(!show)}>
             <div className="sidebarmenu_img">
                 {svg}
             </div>

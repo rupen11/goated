@@ -4,10 +4,13 @@ import logo from '../../assets/logos/logomain.svg'
 import avatar from '../../assets/avatar/avatarJ.svg'
 import Arrowdown from '../../assets/icons/arrowdown.svg'
 import Group2 from '../../assets/icons/Group2.svg'
+import { Link, useLocation } from 'react-router-dom'
 
 const NavbarMain = () => {
 
     const [show, setShow] = useState(false);
+
+    const location = useLocation();
 
     return (
         <div className={`navbarmain_container ${show && 'activehum'}`}>
@@ -23,10 +26,10 @@ const NavbarMain = () => {
             </div>
             <div className="navbarmain_right">
                 <ul className="navbarmain_list">
-                    <li className="navbarmain_list_item activepage">Home</li>
-                    <li className="navbarmain_list_item">Account</li>
-                    <li className="navbarmain_list_item">My Bets</li>
-                    <li className="navbarmain_list_item">FAQ</li>
+                    <li className={`navbarmain_list_item ${location.pathname === '/' && 'activepage'}`} onClick={() => setShow(false)}><Link to='/'>Home</Link></li>
+                    <li className={`navbarmain_list_item ${location.pathname === '/account' && 'activepage'}`} onClick={() => setShow(false)}><Link to='/account'>Account</Link></li>
+                    <li className={`navbarmain_list_item ${location.pathname === '/bets' && 'activepage'}`} onClick={() => setShow(false)}><Link to='/'>My Bets</Link></li>
+                    <li className={`navbarmain_list_item ${location.pathname === '/faq' && 'activepage'}`} onClick={() => setShow(false)}><Link to='/'>FAQ</Link></li>
                 </ul>
                 <div className="navbarmain_over">
                     <div className="navbarmain_over_out">

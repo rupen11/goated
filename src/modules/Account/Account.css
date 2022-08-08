@@ -1,0 +1,132 @@
+.account_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border-left: 1px solid #1D2328;
+    padding-left: 15px;
+    position: relative;
+}
+
+.account_inner_container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.account_discover{
+    color: var(--white);
+    font-size: 27px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.account_activeorder_container{
+    width: 100%;
+    overflow-x: auto;
+}
+
+.account_activeorder_container::-webkit-scrollbar{
+    display: none;
+}
+
+.account_activeorder_table{
+    width: 100%;
+    table-layout: auto;
+}
+
+.account_activeorder_table tr{
+    text-align: left;
+}
+
+.account_activeorder_table th{
+    color: #39495A;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 10px 10px 0;
+}
+
+.account_activeorder_table td{
+    color: #6F879C;
+    font-size: 14px;
+    font-weight: 500;
+    padding-block: 5px;
+}
+
+.account_activeorder_table td:nth-child(2){
+    color: var(--white);
+}
+
+.account_activeorder_table td:nth-child(3){
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: var(--white);
+}
+
+.account_footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_btn{
+    border: none;
+    outline: none;
+    background-color: rgba(108, 34, 47, 0.37);
+    color: #B53062;
+    border-radius: 3px;
+    width: 111px;
+    height: 32px;
+}
+
+.toggle_accountsidebar{
+    background-color: var(--white);
+    position: fixed;
+    bottom: 20%;
+    right: 0;
+    display: none;
+    object-fit: cover;
+    padding: 12px 17px 8px 17px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+@media screen and (max-width: 1100px) {
+    .account_container{
+        border: none;
+        padding-left: 0;
+    }
+    
+    .account_inner_container{
+        flex-direction: column;
+    }
+
+    .toggle_accountsidebar{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .account_activeorder_table{
+        width: 150%;
+    }  
+}
+
+@media screen and (max-width: 500px) {
+    .account_activeorder_table{
+        width: 250%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .account_activeorder_table{
+        width: 350%;
+    }  
+}

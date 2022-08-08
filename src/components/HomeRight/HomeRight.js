@@ -19,7 +19,7 @@ const HomeRight = () => {
                         <HomeRightOut />
                     </Model> */}
                 </div>
-                <Market />
+                <Market title={'All Markets'} />
             </div>
         </>
     )

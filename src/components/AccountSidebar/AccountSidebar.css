@@ -1,0 +1,72 @@
+.accountsidebar_container{
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 210px;
+    height: 100vh;
+    background-color: var(--secondary);
+    z-index: 10;
+    transition: 0.3s;
+}
+
+.accountsidebar_inner_container{
+
+}
+
+.accountsidebar_header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-block: 20px;
+}
+
+.accountsidebar_heading{
+    color: #394D61;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.accountsidebar_list{
+    list-style-type: none;
+}
+
+.accountsidebar_item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-block: 10px;
+    padding-block: 10px;
+}
+
+.accountsidebar_item_icon{
+    margin-inline: 20px;
+}
+
+.accountsidebar_item_name{
+    color: #405162;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.active_accountsidebar_tab{
+    background-color: rgba(137, 200, 0, 0.04);
+    border-right: 1px solid var(--primary);
+}
+
+.active_accountsidebar_tab .accountsidebar_item_name{
+    color: var(--white);
+}
+
+
+@media screen and (max-width: 1100px) {
+    .accountsidebar_container{
+        position: fixed;
+        top: 44px;
+        left: -100%;
+    }
+    .active_accountsidebar{
+        left: 0;
+    }
+}

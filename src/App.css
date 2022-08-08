@@ -1,0 +1,30 @@
+.main{
+    width: 100%;
+    position: relative;
+}
+
+.main_right{
+    width: 80%;
+    position: absolute;
+    top: 44px;
+    right: 0;
+    padding: 20px;
+}
+
+.main_left{
+    width: 20%;
+    position: fixed;
+    top: 44px;
+    left: 0;
+    z-index: 10;
+}
+
+@media screen and (max-width: 1100px) {
+    .main_right{
+        width: 100%;
+        padding-bottom: 70px;
+    }
+    .main_left{
+        width: 100%;
+    }
+}

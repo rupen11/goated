@@ -16,30 +16,6 @@
     border-radius: 4px;
 }
 
-.funding_status_container{
-    width: 425px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    background-color: rgba(136, 200, 0, 0.08);
-    padding: 10px;
-    border-radius: 6px;
-    margin-block: 16px;
-}
-
-.funding_status_container > img{
-    width: 26px;
-    height: 26px;
-}
-
-.funding_status{
-    color: #628121;
-    font-size: 14px;
-    font-weight: 400;
-    cursor: pointer;
-}
-
 .funding_skip_container{
     display: flex;
     align-items: center;

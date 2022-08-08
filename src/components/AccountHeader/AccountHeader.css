@@ -1,0 +1,18 @@
+.account_header{
+    margin-left: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.account_heading{
+    color: var(--white);
+    font-weight: 500;
+}
+
+.account_overview_para{
+    color: #41557B;
+    font-size: 14px;
+    font-weight: 400;
+}

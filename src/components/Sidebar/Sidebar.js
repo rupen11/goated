@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Basketball from '../../assets/sidebar_icon/Basketball'
 import Boxing from '../../assets/sidebar_icon/Boxing'
 import Cricket from '../../assets/sidebar_icon/Cricket'
@@ -13,9 +13,11 @@ import SidebarRight from '../SidebarRight/SidebarRight'
 
 const Sidebar = () => {
 
+    const [show, setShow] = useState(false);
+
     const sidebar_contents = [
         {
-            svg: <Popular fill='#88C800' />,
+            svg: <Popular fill='#5C6E93' />,
             title: 'Popular',
             active: true
         },
@@ -59,8 +61,8 @@ const Sidebar = () => {
     return (
         <>
             <div className="sidebar_container">
-                <SidebarLeft sidebar_contents={sidebar_contents} />
-                <SidebarRight />
+                <SidebarLeft sidebar_contents={sidebar_contents} setShow={setShow} show={show} />
+                <SidebarRight setShow={setShow} show={show} />
             </div>
         </>
     )
