@@ -1,6 +1,6 @@
 import React, { } from 'react'
 import './Prefernces.css'
-import zigzag from '../../assets/icons/Zigzag Vertical.svg'
+import { Zigzag } from '../../assets/icons'
 import Slider from '../../components/Slider'
 import Vector1 from '../../assets/interest/Vector1.svg'
 import Vector2 from '../../assets/interest/Vector2.svg'
@@ -108,7 +108,7 @@ const Prefernces = () => {
 
             </div>
             <div className="zigzag_img">
-                <img src={zigzag} alt="zig zag" />
+                <Zigzag fill='#10171F' className='zigzig_img_content' />
             </div>
         </div>
     )

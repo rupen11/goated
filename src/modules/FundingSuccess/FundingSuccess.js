@@ -1,8 +1,7 @@
 import React from 'react'
 import './FundingSuccess.css'
-import zigzag from '../../assets/icons/Zigzag Vertical.svg'
+import { Zigzag, Success } from '../../assets/icons'
 import Slider from '../../components/Slider'
-import Success from '../../assets/icons/success.svg'
 import GoatButton from '../../components/GoatButton';
 
 const FundingSuccess = () => {
@@ -14,7 +13,7 @@ const FundingSuccess = () => {
 
                 <div className="fundingsuccess_box">
 
-                    <img src={Success} alt="success" />
+                    <Success fill='#88C800' className='fundingsuccess_box_img' />
                     <div className="fundingsuccess_currency">12,304 USDC</div>
                     <div className="fundingsuccess_status">Deposit Successful</div>
 
@@ -23,7 +22,7 @@ const FundingSuccess = () => {
 
             </div>
             <div className="zigzag_img">
-                <img src={zigzag} alt="zig zag" />
+                <Zigzag fill='#10171F' className='zigzig_img_content' />
             </div>
         </div>
     )

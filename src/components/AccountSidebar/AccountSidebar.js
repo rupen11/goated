@@ -1,8 +1,7 @@
 import React from 'react'
-import { ArrowLeft } from '../../assets/icons'
+import { ArrowLeft, BalanceIcon, ArrowRight } from '../../assets/icons'
 import './AccountSidebar.css'
 import { Overview, CurrentBet, LogOut, HelpIcon } from '../../assets/sidebar_icon'
-import { BalanceIcon, ArrowRight } from '../../assets/homepage'
 
 const AccountSidebar = (props) => {
     const { open, setOpen } = props;

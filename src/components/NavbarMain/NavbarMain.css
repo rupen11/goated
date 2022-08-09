@@ -144,6 +144,10 @@
     margin-inline: 20px;
 }
 
+.navbarmain_over_right{
+    margin-right: 20px;
+}
+
 .navbarmain_over_name {
     color: var(--white);
     font-size: 12px;

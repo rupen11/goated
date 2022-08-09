@@ -1,9 +1,8 @@
 import React from 'react'
 import Model from '../Model'
 import './Bet.css'
-import image6 from '../../assets/market/image4.svg'
-import { ArrowDown } from '../../assets/icons'
-import unfold from '../../assets/icons/unfold.svg'
+import image4 from '../../assets/market/image4.svg'
+import { ArrowDown, Unfold } from '../../assets/icons'
 import GoatButton from '../GoatButton'
 import Bedge from '../Bedge'
 import Loading from '../../assets/loading/loader.gif'
@@ -16,7 +15,7 @@ const Bet = (props) => {
                 <button className="bet_close" onClick={() => changeShow(false)}>Close</button>
                 <div className="bet_header">
                     <div className="bet_header_group">
-                        <img src={image6} alt={image6} />
+                        <img src={image4} alt={image4} />
                         <div className="bet_header_inner_group">
                             <p className="bet_header_title">outcome</p>
                             <p className="bet_header_description">Real Madrid Wins</p>
@@ -35,7 +34,7 @@ const Bet = (props) => {
                         <label className="bet_content_label" htmlFor='amount'>Amount</label>
                         <div className="bet_content_input_container">
                             <input type="number" name="amount" id="amount" value='$293' placeholder='Enter an Amount' className='bet_content_input' />
-                            <img src={unfold} alt="unfold" />
+                            <Unfold className='bet_content_img' fill="#39495A" />
                         </div>
                         <p className="bet_content_balance">Balance $2930</p>
                     </div>

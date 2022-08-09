@@ -1,6 +1,6 @@
 import React from 'react'
 import './Fixtures.css'
-import ArrowUp from '../../assets/icons/arrowup.svg'
+import { ArrowUp1 } from '../../assets/icons/'
 
 const Fixtures = ({ svg, title }) => {
     return (
@@ -11,7 +11,7 @@ const Fixtures = ({ svg, title }) => {
                         <img src={svg} alt={svg} className='sidebarright_box_header_img' />
                         <p className="sidebarright_box_header_heading">{title}</p>
                     </div>
-                    <img src={ArrowUp} alt="ArrowUp" className='sidebarright_box_header_arrowup' />
+                    <ArrowUp1 className='sidebarright_box_header_arrowup' fill='#7D8FB870' />
                 </div>
                 <ul className="sidebarright_box_list">
                     <div className="sidebarright_box_list_item">

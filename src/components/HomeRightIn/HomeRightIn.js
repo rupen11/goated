@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from 'react'
 import './HomeRightIn.css'
-import { BalanceIcon, DepositIcon, WithdrawIcon } from '../../assets/homepage';
+import { BalanceIcon, DepositIcon, WithdrawIcon } from '../../assets/icons';
 import Deposit from '../Deposit';
 import Withdraw from '../Withdraw';
 import Balance from '../Balance';

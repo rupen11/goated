@@ -1,0 +1,10 @@
+import React from 'react'
+
+export const Plus = (props) => {
+    return (
+        <svg width="13" height="13" viewBox="0 0 13 13" fill="current" {...props} xmlns="http://www.w3.org/2000/svg">
+            <path d="M12.2917 7.375H7.04169V12.625H5.29169V7.375H0.041687V5.625H5.29169V0.375H7.04169V5.625H12.2917V7.375Z" fill="current" />
+        </svg>
+
+    )
+}

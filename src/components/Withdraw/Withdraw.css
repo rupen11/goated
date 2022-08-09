@@ -29,7 +29,7 @@
   margin: 0;
 }
 
-.withdraw_input_container > img{
+.withdraw_input_img{
     position: absolute;
     top: 8px;
     right: 10px;

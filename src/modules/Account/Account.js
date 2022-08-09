@@ -3,10 +3,9 @@ import AccountHeader from '../../components/AccountHeader/AccountHeader';
 import GoatButton from '../../components/GoatButton';
 import HomeRightIn from '../../components/HomeRightIn';
 import Model from '../../components/Model';
-import { Active } from '../../assets/market'
+import { Active, More } from '../../assets/icons'
 import image3 from '../../assets/market/image3.svg'
 import './Account.css';
-import { More } from '../../assets/homepage';
 import AccountSidebar from '../../components/AccountSidebar';
 
 const Account = () => {

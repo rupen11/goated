@@ -5,12 +5,15 @@
     position: absolute;
     top: 0;
     left: -100%;
-    height: calc(100vh - 98px);
+    height: 100vh;
     overflow-y: scroll;
     transition: 0.3s;
     opacity: 0;
 }
 
+.sidebarright_container::-webkit-scrollbar{
+    display: none;
+}
 
 .active_sidebarright.sidebarright_container{
     left: 53px;

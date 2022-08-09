@@ -5,7 +5,7 @@ import image2 from '../../assets/market/image2.svg'
 import image3 from '../../assets/market/image3.svg'
 import Model from '../Model'
 import Marketcard from '../Marketcard'
-import { ArrowRight, Football, More } from '../../assets/homepage'
+import { ArrowRight, Football, More } from '../../assets/icons'
 
 const Marketcards = (props) => {
     const { title, footerText } = props;

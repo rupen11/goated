@@ -2,8 +2,7 @@ import React, { useState } from 'react'
 import './NavbarMain.css'
 import logo from '../../assets/logos/logomain.svg'
 import avatar from '../../assets/avatar/avatarJ.svg'
-import Arrowdown from '../../assets/icons/arrowdown.svg'
-import Group2 from '../../assets/icons/Group2.svg'
+import { SignupDeposit, ArrowDown1 } from '../../assets/icons'
 import { Link, useLocation } from 'react-router-dom'
 
 const NavbarMain = () => {
@@ -34,7 +33,7 @@ const NavbarMain = () => {
                 <div className="navbarmain_over">
                     <div className="navbarmain_over_out">
                         <div className="navbarmain_out_img">
-                            <img src={Group2} alt="signup" />
+                            <SignupDeposit className='navbarmain_out_img_container' />
                         </div>
                         <div className="navbarmain_out_text">
                             Sign in with FTX
@@ -46,12 +45,12 @@ const NavbarMain = () => {
                             <p className="navbarmain_over_name">Jonathan Smith</p>
                         </div>
                         <div className="navbarmain_over_right">
-                            <img src={Arrowdown} alt="arrowdown" className='navbarmain_arrowdown' />
+                            <ArrowDown1 className="navbarmain_over_right_img" fill='#39495A' />
                         </div>
                     </div> */}
                 </div>
-            </div>
-        </div>
+            </div >
+        </div >
     )
 }
 

@@ -1,9 +1,7 @@
 import React from 'react'
 import './Deposit.css'
-import DepositIcon from '../../assets/icons/Group2.svg'
 import USDcoin from '../../assets/icons/usdcoin.svg'
-import CopyIcon from '../../assets/icons/copy.svg'
-import Unfold from '../../assets/icons/unfold.svg'
+import { CopyIcon, Unfold, SignupDeposit } from '../../assets/icons'
 import GoatButton from '../GoatButton'
 
 const Deposit = (props) => {
@@ -14,17 +12,17 @@ const Deposit = (props) => {
 
             <div className="deposit_input_container">
                 <input type="text" className='deposit_input' placeholder='0x7hufkh732Dhfa3Dlkjdshuw389dsfsdh' />
-                <img src={CopyIcon} alt="copy" />
+                <CopyIcon className='deposite_input_img' fill='#39495A' />
             </div>
 
             <div className="deposit_heading_container">
-                <img src={DepositIcon} alt="deposit icon" />
+                <SignupDeposit className='deposite_input_img' />
                 <h5 className="deposit_heading">Deposit from FTX</h5>
             </div>
 
             <div className="deposit_input_container">
                 <input type="number" className='deposit_input' placeholder='Enter an amount' />
-                <img src={Unfold} alt="unfold" />
+                <Unfold className='deposite_input_img' fill='#39495A' />
             </div>
 
             <div className="deposit_flex">

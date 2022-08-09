@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Terms.css'
-import zigzag from '../../assets/icons/Zigzag Vertical.svg'
+import { Zigzag } from '../../assets/icons'
 import Slider from '../../components/Slider'
 import GoatButton from '../../components/GoatButton';
 
@@ -38,7 +38,7 @@ const Terms = () => {
 
             </div>
             <div className="zigzag_img">
-                <img src={zigzag} alt="zig zag" />
+                <Zigzag fill='#10171F' className='zigzig_img_content' />
             </div>
         </div>
     )

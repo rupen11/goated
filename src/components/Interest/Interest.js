@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Interest.css'
-import Plus from '../../assets/icons/plus.svg'
+import { Plus } from '../../assets/icons'
 import Right from '../../assets/icons/right.svg'
 
 const Interest = ({ name, svg }) => {

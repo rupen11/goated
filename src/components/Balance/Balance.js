@@ -1,6 +1,6 @@
 import React from 'react'
 import './Balance.css'
-import { GoatBalanceIcon, StakedIcon } from '../../assets/homepage'
+import { GoatBalanceIcon, StakedIcon } from '../../assets/icons'
 
 const Balance = () => {
     return (

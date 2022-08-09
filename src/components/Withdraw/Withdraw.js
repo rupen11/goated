@@ -1,7 +1,6 @@
 import React from 'react'
 import './Withdraw.css'
-import DepositIcon from '../../assets/icons/Group2.svg'
-import Unfold from '../../assets/icons/unfold.svg'
+import { Unfold, DepositIcon, SignupDeposit } from '../../assets/icons'
 import GoatButton from '../GoatButton'
 
 const Withdraw = (props) => {
@@ -11,13 +10,13 @@ const Withdraw = (props) => {
 
             <div className="withdraw_group">
                 <div className="withdraw_heading_container">
-                    <img src={DepositIcon} alt="withdraw icon" />
+                    <SignupDeposit />
                     <h5 className="withdraw_heading">Withdraw to FTX</h5>
                 </div>
 
                 <div className="withdraw_input_container">
                     <input type="number" className='withdraw_input' placeholder='Enter an amount' />
-                    <img src={Unfold} alt="unfold" />
+                    <Unfold className='withdraw_input_img' fill="#39495A" />
                 </div>
 
                 <GoatButton customeStyle={{ marginTop: 21 }} linkroutepath={linkroutepath} text={'Withdraw Funds'} />

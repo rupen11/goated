@@ -1,7 +1,7 @@
 import React from 'react'
 import './Market.css'
 import Marketcards from '../Marketcards'
-import { Treding } from '../../assets/homepage'
+import { Treding } from '../../assets/icons'
 import { useNavigate } from 'react-router-dom';
 
 const Market = (props) => {

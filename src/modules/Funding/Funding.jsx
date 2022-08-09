@@ -1,6 +1,6 @@
 import React from 'react'
 import './Funding.css'
-import zigzag from '../../assets/icons/Zigzag Vertical.svg'
+import { Zigzag } from '../../assets/icons'
 import Slider from '../../components/Slider'
 import Loading from '../../assets/loading/loader.gif'
 import Deposit from '../../components/Deposit';
@@ -26,7 +26,7 @@ const Funding = () => {
                 </div>
             </div>
             <div className="zigzag_img">
-                <img src={zigzag} alt="zig zag" />
+                <Zigzag fill='#10171F' className='zigzig_img_content' />
             </div>
         </div >
     )

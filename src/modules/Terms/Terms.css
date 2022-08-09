@@ -112,7 +112,7 @@
     text-align: right;
 }
 
-.zigzag_img > img{
+.zigzig_img_content{
     width: 276px;
     height: 276px;
 }
@@ -127,7 +127,7 @@
     .zigzag_img{
         margin: 70px 70px 0 0;
     }
-    .zigzag_img > img{
+    .zigzig_img_content{
         width: 176px;
         height: 176px;
     }
@@ -146,7 +146,7 @@
     .zigzag_img{
         margin: 70px 20px 0 0;
     }
-    .zigzag_img > img{
+    .zigzig_img_content{
         width: 126px;
         height: 126px;
     }

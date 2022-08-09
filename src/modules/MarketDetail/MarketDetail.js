@@ -1,7 +1,6 @@
 import React, { useCallback, useState } from 'react'
 import './MarketDetail.css'
-import { Football, More } from '../../assets/homepage'
-import { Active, ArrowBack, Tab } from '../../assets/market'
+import { Active, ArrowBack, Tab, Football, More } from '../../assets/icons'
 import Model from '../../components/Model'
 import Market from '../../components/Market'
 import Marketcard from '../../components/Marketcard'
